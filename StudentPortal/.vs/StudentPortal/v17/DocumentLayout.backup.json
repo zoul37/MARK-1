@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\migrations\\20250205062057_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\migrations\\20250205062057_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\studentportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\studentportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|c:\\users\\my msi\\onedrive\\desktop\\new\\studentportal\\studentportal\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D987D612-7270-4C44-9550-D1F4EBB5E449}|StudentPortal\\StudentPortal.csproj|solutionrelative:studentportal\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentPortal\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Models\\Student.cs",
+              "RelativeToolTip": "StudentPortal\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:50:38.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentPortal\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentPortal\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:59:47.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "StudentPortal\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "StudentPortal\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:59:52.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Program.cs",
+              "RelativeDocumentMoniker": "StudentPortal\\Program.cs",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Program.cs*",
+              "RelativeToolTip": "StudentPortal\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T05:21:59.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StudentPortal\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\appsettings.Development.json",
+              "RelativeToolTip": "StudentPortal\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T06:25:44.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "StudentPortal\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "StudentPortal\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T05:22:53.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250205062057_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Migrations\\20250205062057_InitialMigration.cs",
+              "RelativeDocumentMoniker": "StudentPortal\\Migrations\\20250205062057_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Migrations\\20250205062057_InitialMigration.cs",
+              "RelativeToolTip": "StudentPortal\\Migrations\\20250205062057_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T06:20:57.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentPortal\\appsettings.json",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\appsettings.json",
+              "RelativeToolTip": "StudentPortal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T06:24:24.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentPortal.csproj",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\StudentPortal.csproj",
+              "RelativeDocumentMoniker": "StudentPortal\\StudentPortal.csproj",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\StudentPortal.csproj",
+              "RelativeToolTip": "StudentPortal\\StudentPortal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T05:50:23.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StudentPortal\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\my msi\\OneDrive\\Desktop\\new\\StudentPortal\\StudentPortal\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StudentPortal\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-03T04:50:48.95Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

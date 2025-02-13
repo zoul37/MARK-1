@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "StudentPortal.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentPortal.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentPortal.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentPortal.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Student/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedStudent",
+        "Type": "StudentPortal.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentPortal.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

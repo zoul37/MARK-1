@@ -1,0 +1,157 @@
+﻿@page
+
+@model StudentDirectory.Pages.StudentsModel
+
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h1>
+    STUDENT DIRECTORY
+</h1>
+
+<div>
+    <button class="btn btn-primary" onclick="AddStudent()">ADD</button>
+
+    <table style="background-color: aquamarine; width: 100%; border-collapse:collapse; margin: 20px; text-align: left;">
+        <thead style="background-color: grey; text-decoration-color: white;">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var student in Model.Students)
+            {
+                <tr id="row-@student.Id" style="border-bottom: 1px solid #ddd;">
+                    <td> @student.Id</td>
+                    <td>
+                        <span id="name-@student.Id">@student.Name</span>
+                        <input type="text" id="edit-name-@student.Id" value="@student.Name" style="display:none;" />
+                    </td>
+                    <td>
+                        <span id="email-@student.Id">@student.Email</span>
+                        <input type="text" id="edit-email-@student.Id" value="@student.Email" style="display:none;" />
+                    </td>
+                    <td>
+                        <span id="age-@student.Id"> @student.Age</span>
+                        <input type="text" id="edit-age-@student.Id" value="@student.Age" style="display:none;" />
+                    </td>
+                    <td> <button class="btn btn-primary" onclick="EditStudent(@student.Id)"> EDIT</button></td>
+                    <td> <button class="btn btn-primary" onclick="DeleteStudent(@student.Id)">DELETE</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-primary" onclick="Save()" style="display:none"> SAVE</button>
+</div>
+
+<script>
+    let currentStudentId;
+
+    function EditStudent(studentId) {
+        currentStudentId = studentId;
+        document.getElementById("name-" + studentId).style.display = "none";
+        document.getElementById("edit-name-" + studentId).style.display = "inline";
+        document.getElementById("email-" + studentId).style.display = "none";
+        document.getElementById("edit-email-" + studentId).style.display = "inline";
+        document.getElementById("age-" + studentId).style.display = "none";
+        document.getElementById("edit-age-" + studentId).style.display = "inline";
+        document.querySelector("button[onclick='Save()']").style.display = "inline";
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector("button[onclick='Save()']").onclick = function() { Save(currentStudentId); };
+    });
+
+    function DeleteStudent(studentId) {
+        if (confirm("Are you sure you want to delete this student?")) {
+            document.getElementById("row-" + studentId).style.display = "none";
+           
+            $.ajax({
+                url: "https://localhost:7120/api/student/" + studentId,
+                type: "DELETE",
+                success: function(response) { console.log("Data Deleted"); },
+                error: function(error) { console.log("Error Deleting Data"); }
+            });
+        }
+    }
+
+    function Save(studentId) {
+        let name = document.getElementById("edit-name-" + studentId).value;
+        let email = document.getElementById("edit-email-" + studentId).value;
+        let age = document.getElementById("edit-age-" + studentId).value;
+
+        const url = "https://localhost:7120/api/student/" + studentId; // Corrected URL
+
+        $.ajax({
+            url: url,
+            type: 'PUT',
+            contentType: "application/json",
+            headers: {
+                "Accept": "application/json"
+            },
+            data: JSON.stringify({Name: name, Email: email, Age: age}),
+            success: function(response) {
+                console.log("Data Saved", response);
+
+                document.getElementById("name-" + studentId).innerText = name;
+                document.getElementById("email-" + studentId).innerText = email;
+                document.getElementById("age-" + studentId).innerText = age;
+
+                document.getElementById("edit-name-" + studentId).style.display = "none";
+                document.getElementById("edit-email-" + studentId).style.display = "none";
+                document.getElementById("edit-age-" + studentId).style.display = "none";
+                document.querySelector("button[onclick='Save()']").style.display = "none";
+
+                document.getElementById("name-" + studentId).style.display = "inline";
+                document.getElementById("email-" + studentId).style.display = "inline";
+                document.getElementById("age-" + studentId).style.display = "inline";
+
+            },
+            error: function(error) { console.log("Error Saving Data", error); }
+        });
+    }
+
+
+    function AddStudent() {
+        
+        const table = document.querySelector("table tbody");
+        const newRow = document.createElement("tr");
+        newRow.innerHTML = `
+            <td></td>
+            <td><input type="text" id="new-name" /></td>
+            <td><input type="text" id="new-email" /></td>
+            <td><input type="text" id="new-age" /></td>
+            <td></td>
+            <td><button class="btn btn-primary" onclick="SaveNewStudent()">SAVE</button></td>
+        `;
+        table.appendChild(newRow);
+    }
+
+    function SaveNewStudent() 
+    {
+        const name = document.getElementById("new-name").value;
+        const email = document.getElementById("new-email").value;
+        const age = document.getElementById("new-age").value;
+        const url = "https://localhost:7120/api/student";
+
+           $.ajax({
+                url: url,  
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ Name: name, Email: email, Age: age }),
+                success: function(response) {
+                    console.log("Student Added", response);
+                    location.reload();  // Reload to show the new student
+                },
+                error: function(error) {
+                    console.log("Error Adding Student", error);
+                }
+            });
+    }
+
+</script>

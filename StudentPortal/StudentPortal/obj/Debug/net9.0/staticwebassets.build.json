@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "DNWAu7KXDVNBKOs6wjF7uxUKxgB3xl4JmPgwTCWSLLI=",
+  "Source": "StudentPortal",
+  "BasePath": "_content/StudentPortal",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
